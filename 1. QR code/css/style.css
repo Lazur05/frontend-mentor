@@ -9,7 +9,7 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.attribution {
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,7 +18,7 @@ body {
   font-size: 11px;
   text-align: center;
 }
-.attribution .card {
+main .card {
   padding: 16px 16px 40px 16px;
   width: 320px;
   height: 499px;
@@ -26,24 +26,24 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.attribution .card img {
+main .card img {
   width: 288px;
   height: 288px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.attribution .card a {
+main .card a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
-.attribution .card p:first-of-type {
+main .card p:first-of-type {
   margin-bottom: 15px;
   color: #1f314f;
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
 }
-.attribution .card p:last-of-type {
+main .card p:last-of-type {
   color: #68778d;
   margin-bottom: 5px;
   padding: 0 15px 0 15px;
