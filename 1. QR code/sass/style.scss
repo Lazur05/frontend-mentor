@@ -37,7 +37,7 @@ body {
             text-decoration: none;
         }
         p:first-of-type {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: $slate900;
             font-weight: bold;
             font-size: 22px;
@@ -45,10 +45,11 @@ body {
         }
         p:last-of-type {
             color: $slate500;
+            margin-bottom: 5px;
+            padding: 0 15px 0 15px;
             font-size: 15px;
             line-height: 140%;
             letter-spacing: 0.2px;
-            margin-bottom: 5px;
         }
     }
 }

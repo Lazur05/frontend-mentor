@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .attribution .card p:first-of-type {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #1f314f;
   font-weight: bold;
   font-size: 22px;
@@ -45,8 +45,9 @@ body {
 }
 .attribution .card p:last-of-type {
   color: #68778d;
+  margin-bottom: 5px;
+  padding: 0 15px 0 15px;
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;
-  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
