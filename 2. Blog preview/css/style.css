@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: grid;
+  place-content: center center;
+  font-family: "Figtree", sans-serif;
+  background-color: #f4d04e;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  width: 384px;
+  background-color: #ffffff;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0.5em 0.5em;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-content .blog-image {
+  width: 336px;
+  height: 200px;
+  background-image: url(../assets/images/illustration-article.svg);
+  border-radius: 10px;
+}
+.card .card-content .blog-desc {
+  color: #111111;
+}
+.card .card-content .blog-desc .category {
+  display: inline-block;
+  padding: 7px 15px;
+  margin: 30px 0 5px 0;
+  background-color: #f4d04e;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.card .card-content .blog-desc .publication {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card .card-content .blog-desc h1 {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.card .card-content .blog-desc h1 a {
+  text-decoration: none;
+  color: #111111;
+}
+.card .card-content .blog-desc h1 a:hover {
+  color: #f4d04e;
+}
+.card .card-content .blog-desc .description {
+  margin-bottom: 20px;
+  color: #6b6b6b;
+}
+.card .card-content .blog-desc .author {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+.card .card-content .blog-desc .author img {
+  width: 2em;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
