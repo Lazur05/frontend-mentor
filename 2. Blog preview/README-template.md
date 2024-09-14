@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution]()
+- Live Site URL: [Live site](https://lazur05.github.io/frontend-mentor/2.%20Blog%20preview/)
 
 ### Built with
 
