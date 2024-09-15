@@ -1,0 +1,81 @@
+@use './colors' as *;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Inter" ,sans-serif;
+    background-color: $grey900;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .card{
+        padding: 2em;
+        width: 400px;
+        background-color: $grey800;
+        border-radius: 1em;
+        .card-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                border-radius: 50%;
+                max-width: 80px;
+                margin: 1.7em;
+            }
+            .name{
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+                font-weight: 600;
+            }
+            .homecity{
+                color: $green;
+                font-weight: 600;
+                font-size: 1.4em;
+                margin-bottom: 2em;
+            }
+            .desc{
+                font-size: 1.4em;
+                color: gray;
+            }
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            a{
+                width: 100%;
+                text-align: center;
+                height: 20%;
+                background-color: $grey700;
+                margin: 0.7em;
+                padding: 1.2em;
+                border-radius: 1em;
+                text-decoration: none;
+                color: #fff;
+                font-weight: 700;
+                font-size: 1.3em;
+                transition: color, background-color .3s;
+            }
+            a:hover{
+                background-color: $green;
+                color: $grey900;
+            }
+        }
+    }
+}

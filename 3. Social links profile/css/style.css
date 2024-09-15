@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .card {
+  padding: 2em;
+  width: 400px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1em;
+}
+main .card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .card .card-content img {
+  border-radius: 50%;
+  max-width: 80px;
+  margin: 1.7em;
+}
+main .card .card-content .name {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+main .card .card-content .homecity {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 2em;
+}
+main .card .card-content .desc {
+  font-size: 1.4em;
+  color: gray;
+}
+main .card .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+main .card .links a {
+  width: 100%;
+  text-align: center;
+  height: 20%;
+  background-color: hsl(0, 0%, 20%);
+  margin: 0.7em;
+  padding: 1.2em;
+  border-radius: 1em;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3em;
+  transition: color, background-color 0.3s;
+}
+main .card .links a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}/*# sourceMappingURL=style.css.map */
