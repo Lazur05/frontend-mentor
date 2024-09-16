@@ -34,7 +34,7 @@ main .card .card-content {
 }
 main .card .card-content img {
   border-radius: 50%;
-  max-width: 80px;
+  max-width: 90px;
   margin: 2.5em;
 }
 main .card .card-content .name {
@@ -65,12 +65,12 @@ main .card .links a {
   height: 20%;
   background-color: hsl(0, 0%, 20%);
   margin: 0.7em;
-  padding: 1.2em;
+  padding: 1.1em;
   border-radius: 1em;
   text-decoration: none;
   color: #fff;
   font-weight: 700;
-  font-size: 1.3em;
+  font-size: 1.5em;
   transition: color, background-color 0.3s;
 }
 main .card .links a:hover {

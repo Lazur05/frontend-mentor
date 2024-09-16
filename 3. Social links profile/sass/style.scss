@@ -33,7 +33,7 @@ main {
             align-items: center;
             img {
                 border-radius: 50%;
-                max-width: 80px;
+                max-width: 90px;
                 margin: 2.5em;
             }
             .name{
@@ -64,12 +64,12 @@ main {
                 height: 20%;
                 background-color: $grey700;
                 margin: 0.7em;
-                padding: 1.2em;
+                padding: 1.1em;
                 border-radius: 1em;
                 text-decoration: none;
                 color: #fff;
                 font-weight: 700;
-                font-size: 1.3em;
+                font-size: 1.5em;
                 transition: color, background-color .3s;
             }
             a:hover{
