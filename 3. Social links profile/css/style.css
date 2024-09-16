@@ -34,7 +34,7 @@ main .card .card-content {
 }
 main .card .card-content img {
   border-radius: 50%;
-  max-width: 80px;
+  max-width: 100px;
   margin: 1.7em;
 }
 main .card .card-content .name {
@@ -50,7 +50,7 @@ main .card .card-content .homecity {
 }
 main .card .card-content .desc {
   font-size: 1.4em;
-  color: gray;
+  color: #fff;
 }
 main .card .links {
   display: flex;
