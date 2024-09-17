@@ -22,7 +22,7 @@ main {
 }
 main .card {
   padding: 2em;
-  width: 370px;
+  width: 37em;
   background-color: hsl(0, 0%, 12%);
   border-radius: 1em;
 }
@@ -59,21 +59,29 @@ main .card .links {
   align-items: center;
   padding: 15px;
 }
-main .card .links a {
+main .card .links li {
   width: 100%;
-  text-align: center;
   height: 20%;
+  text-align: center;
   background-color: hsl(0, 0%, 20%);
   margin: 0.7em;
-  padding: 1.1em;
   border-radius: 1em;
-  text-decoration: none;
-  color: #fff;
   font-weight: 700;
   font-size: 1.5em;
   transition: color, background-color 0.3s;
+  list-style-type: none;
 }
-main .card .links a:hover {
+main .card .links li a {
+  display: block;
+  padding: 1.1em;
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+main .card .links li:hover {
   background-color: hsl(75, 94%, 57%);
+}
+main .card .links li:hover a {
   color: hsl(0, 0%, 8%);
 }/*# sourceMappingURL=style.css.map */

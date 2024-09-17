@@ -23,7 +23,7 @@ main {
     height: 100vh;
     .card{
         padding: 2em;
-        width: 370px;
+        width: 37em;
         background-color: $grey800;
         border-radius: 1em;
         .card-content{
@@ -58,23 +58,31 @@ main {
             justify-content: space-between;
             align-items: center;
             padding: 15px;
-            a{
+            li{
                 width: 100%;
-                text-align: center;
                 height: 20%;
+                text-align: center;
                 background-color: $grey700;
                 margin: 0.7em;
-                padding: 1.1em;
                 border-radius: 1em;
-                text-decoration: none;
-                color: #fff;
                 font-weight: 700;
                 font-size: 1.5em;
                 transition: color, background-color .3s;
+                list-style-type: none;
+                a {
+                    display: block;
+                    padding: 1.1em;
+                    text-decoration: none;
+                    color: #fff;
+                    width: 100%;
+                    height: 100%;
+                }
             }
-            a:hover{
+            li:hover{
                 background-color: $green;
-                color: $grey900;
+                a{
+                    color: $grey900;
+                }
             }
         }
     }
