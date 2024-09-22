@@ -78,11 +78,13 @@ main {
         }
         .prep {
             padding: 2.5rem;
-            h3 {
+            h2 {
+                font-size: 2rem;
                 margin-bottom: 0.5rem;
-                font-weight: 700;
+                color: $Rose800;
+                font-weight: 600;
+                font-family: 'Outfit', sans-serif;
             }
-            color: $Rose800;
             background-color: $Rose50;
         }
         .instructions {

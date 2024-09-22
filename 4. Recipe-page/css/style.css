@@ -78,12 +78,14 @@ main .recipe .title p {
 }
 main .recipe .prep {
   padding: 2.5rem;
-  color: hsl(332, 51%, 32%);
   background-color: hsl(330, 100%, 98%);
 }
-main .recipe .prep h3 {
+main .recipe .prep h2 {
+  font-size: 2rem;
   margin-bottom: 0.5rem;
-  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
 }
 main .recipe .instructions li::marker {
   font-weight: bold;
