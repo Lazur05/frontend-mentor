@@ -24,8 +24,8 @@ main {
     align-items: center;
     .recipe{
         margin: 10rem;
-        padding: 3rem;
-        width: 80rem;
+        padding: 3.5rem;
+        width: 75rem;
         background-color: #fff;
         border-radius: 2rem;
         list-style: inside;
@@ -37,6 +37,7 @@ main {
         }
         h1, h2{
             font-family: 'Young Serif';
+            font-weight: 400;
         }
         h2 {
             color: $Brown800;
@@ -79,6 +80,7 @@ main {
             padding: 2.5rem;
             h3 {
                 margin-bottom: 0.5rem;
+                font-weight: 700;
             }
             color: $Rose800;
             background-color: $Rose50;
