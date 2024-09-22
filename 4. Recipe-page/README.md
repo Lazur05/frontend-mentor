@@ -13,7 +13,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ## Overview
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot2.jpg)
 
 ### Links
 
