@@ -1,0 +1,113 @@
+@use './colors' as *;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: $Stone100;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .recipe{
+        margin: 10rem;
+        padding: 3rem;
+        width: 80rem;
+        background-color: #fff;
+        border-radius: 2rem;
+        list-style: inside;
+        font-size: 1.6rem;
+        h1 {
+            font-size: 4.5rem;
+            color: $Stone900;
+            margin-bottom: 2rem;
+        }
+        h1, h2{
+            font-family: 'Young Serif';
+        }
+        h2 {
+            color: $Brown800;
+            margin-bottom: 1rem;
+        }
+        span {
+            font-weight: 700;
+        }
+        li {
+            color: $Stone600;
+            padding: 0 1rem;
+            margin: 1rem 0;
+        }
+        li:before{
+            content: "";
+            margin-right: 1.2rem;
+        }
+        .block {
+            margin: 3rem 0;
+        }
+        .underline {
+            width: 100%;
+            height: .1rem;
+            background-color: $Stone150;
+        }
+        .photo{
+            margin: 0 0 3rem 0;
+            img{
+                width: 100%;
+                border-radius: 2rem;
+            }
+        }
+        .title {
+            margin: 2rem 0;
+            p {
+                margin-bottom: 4rem;
+            }
+        }
+        .prep {
+            padding: 2.5rem;
+            h3 {
+                margin-bottom: 0.5rem;
+            }
+            color: $Rose800;
+            background-color: $Rose50;
+        }
+        .instructions {
+            li::marker {
+                font-weight: bold;
+                color: $Rose800;
+            }
+        }
+        .nutrition{
+            p {
+                margin-bottom: 2rem;
+            }
+            table {
+                width: 100%;
+                margin: 1rem 2rem;
+                tr,td,th{
+                    width: 50%;
+                }
+                th{
+                    margin: 1rem;
+                    color: $Brown800;
+                    text-align: left;
+                }
+            }
+            .nutrition-title {
+                font-weight: 400;
+            }
+        }
+    }
+}
