@@ -163,7 +163,7 @@ body {
 }
 @media (width > 1440px) {
   .main .product {
-    width: 50vw;
+    width: 40vw;
   }
   .main .product__img {
     width: 60%;
