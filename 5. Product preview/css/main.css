@@ -139,7 +139,6 @@ body {
   .main .product {
     display: flex;
     width: 60vw;
-    height: 60vh;
   }
   .main .product__card {
     display: flex;
