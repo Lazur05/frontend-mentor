@@ -23,13 +23,18 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop:
+
 ![Desktop](./images/screenshots/screenshot-desktop.jpg)
+
+Mobile:
+
 ![Mobile](./images/screenshots/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://lazur05.github.io/frontend-mentor/5.%20Product%20preview/)
 
 ## My process
 
