@@ -25,7 +25,7 @@ Users should be able to:
 
 Desktop:
 
-![Desktop](./images/screenshots/screenshot-desktop.jpg)
+![Desktop](./images/screenshots/screenshot-desktop1.jpg)
 
 Mobile:
 
