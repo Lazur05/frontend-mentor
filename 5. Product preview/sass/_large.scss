@@ -1,0 +1,68 @@
+@use 'colors' as *;
+
+
+@media (width > 1024px){
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .heading {
+            font-size: 3.8rem;
+            line-height: 1em;
+        }
+
+        .paragraph {
+            font-size: 1.7rem;
+        }
+
+        .product{
+            display: flex;
+            width: 60vw;
+            height: 60vh;
+            
+            &__card {
+                display: flex;
+                width: 100%;
+            }
+            
+            &__img, &__content {
+                height: 100%;
+            }
+            
+            &__img {
+                width: 50%;
+                background-image: url('../images/image-product-desktop.jpg');
+            }
+            
+            &__content {
+                justify-content: space-between;
+                width: 50%;
+                padding: 3em;
+            }
+
+            &__btn {
+                padding: 1.3em;
+            }
+        }
+    }
+}
+
+
+
+@media (width > 1440px){
+    .main {
+
+        .product{       
+            width: 50vw; 
+
+            &__img {
+                width: 60%;
+            }
+            &__content {
+                justify-content: space-around;
+            }
+        }
+    }
+}

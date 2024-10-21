@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../1. QR code"
+		},
+		{
+			"path": "../2. Blog preview"
+		},
+		{
+			"path": "../3. Social links profile"
+		},
+		{
+			"path": "../4. Recipe-page"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "5. Product preview"
+	}
+}

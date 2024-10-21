@@ -1,0 +1,11 @@
+@media (width > 576px){
+    .heading {
+        font-size: 3rem;
+    }
+
+    .product{
+        &__card{
+            width: 40em;
+        }
+    }
+}
