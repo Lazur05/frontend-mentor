@@ -29,7 +29,7 @@ Desktop:
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://lazur05.github.io/frontend-mentor/5.%20Four%20card%20feature%20section/)
+- Live Site URL: [Live site](https://lazur05.github.io/frontend-mentor/6.%20Four%20card%20feature%20section/)
 
 ## My process
 
