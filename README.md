@@ -11,3 +11,5 @@
 [04. Recipe page](https://lazur05.github.io/frontend-mentor/4.%20Recipe-page/)
 
 [05. Product preview](https://lazur05.github.io/frontend-mentor/5.%20Product%20preview)
+
+[06. Four card feature section](https://lazur05.github.io/frontend-mentor/5.%20Four%20card%20feature%20section/)
