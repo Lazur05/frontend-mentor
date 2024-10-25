@@ -1,0 +1,50 @@
+@media (width > 1175px) {
+	.reviews {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		&__card {
+			&--one {
+				grid-column: 1/4;
+			}
+			&--three:last-of-type {
+				grid-column: 1/2;
+				grid-row: 2/4;
+			}
+			&--four {
+				grid-column: 2/4;
+				grid-row: 2/3;
+			}
+		}
+		&__quote {
+			right: 8em;
+		}
+	}
+}
+
+@media (width > 1600px) {
+	.reviews {
+		padding: 10em;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		&__card {
+			&--one {
+				grid-column: 1/3;
+			}
+			&--two {
+				grid-column: 3/4;
+				grid-row: 1/2;
+			}
+			&--three {
+				grid-column: 1/2;
+				grid-row: 2/3;
+			}
+			&--three:last-of-type {
+				grid-column: 4/5;
+				grid-row: 1/3;
+			}
+			&--four {
+				grid-column: 2/4;
+			}
+		}
+	}
+}

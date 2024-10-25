@@ -1,0 +1,94 @@
+@use 'colors' as *;
+
+body {
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    font-weight: 500;
+    background-color: $bodyColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.reviews {
+    padding: 6em 2em;
+    display: grid;
+    gap: 2em;
+    &__card{
+        max-width: max-content;
+        padding: 2em 3em;
+        border-radius: 8px;
+        color: $white;
+        box-shadow: 0 10px 20px rgb(0, 0, 0, .3);
+        &--one {
+            position: relative;
+            background-color: $mainColor;
+            z-index: 1;
+            .reviews__avatar {
+                border: 3px solid $lightViolet;
+            }
+        }
+        &--two {
+            background-color: $greyBlue;
+        }
+        &--three {
+            background-color: $white;
+            color: $greyBlue;
+            .reviews__body, .reviews__title {
+                color: $whiteHeadingColor;
+            }
+        }
+        &--four {
+            background-color: $darkBlue;
+            .reviews__avatar {
+                border: 3px solid $lightViolet;
+            }
+        }
+    }
+
+    &__quote {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 2em;
+        width: 9.5em;
+    }
+
+    &__profile {
+        display: flex;
+        gap: 1.5em;
+    }
+
+    &__name {
+        font-size: 1.2rem;
+    }
+    &__title {
+        font-size: 1rem;
+    }
+
+    &__title, &__body {
+        opacity: .5;
+    }
+    &__avatar {
+        max-width: 3.3em;
+        max-height: 3.3em;
+        border-radius: 100%;
+        border: 3px solid $white;
+    }
+
+    &__content{
+        margin: 1.5em 0;
+    }
+    
+    &__heading {
+        margin-bottom: 0.625em;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 1.3em;
+    }
+    
+    &__body {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+}
