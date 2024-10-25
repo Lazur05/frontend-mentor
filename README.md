@@ -13,3 +13,5 @@
 [05. Product preview](https://lazur05.github.io/frontend-mentor/5.%20Product%20preview)
 
 [06. Four card feature section](https://lazur05.github.io/frontend-mentor/6.%20Four%20card%20feature%20section/)
+
+[07. Testimonials grid section](https://lazur05.github.io/frontend-mentor/7.%20Testimonials%20grid%20section/)
